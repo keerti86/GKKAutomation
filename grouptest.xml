@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <groups> 
+  <run>
+  <include name="sanity"></include>
+  </run>
+  
+  </groups>
+    <classes>
+      <class name="com.grp.OrangeHrmTest"/>
+      <class name="com.grp.FacebookTest"/>
+      <class name="com.grp.walmartTest"/>
+      <class name="com.grp.AmazonTest"/>
+      <class name="com.grp.IhgTest"/>
+      <class name="com.grp.FlipcartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
